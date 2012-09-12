@@ -1,5 +1,5 @@
 <%= div_for event do -%>
-  <time class="date" datetime="<%= event.start_at%>">
+  <time class="date" datetime="<%= event.start_at %>">
     <%= event.start_at.strftime('%b %d').html_safe %>
   </time>
 

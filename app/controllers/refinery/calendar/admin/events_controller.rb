@@ -7,7 +7,7 @@ module Refinery
         crudify :'refinery/calendar/event',
                 :xhr_paging => true,
                 :sortable => false,
-                :order => "'start_at' DESC"
+                :order => "start_at DESC"
 
         private
         def find_venues
