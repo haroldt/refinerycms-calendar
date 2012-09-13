@@ -44,6 +44,7 @@ end
   platforms :ruby do
     gem 'spork', '0.9.0.rc9'
     gem 'guard-spork'
+    gem 'guard-rspec'
 
     unless ENV['TRAVIS']
       if RbConfig::CONFIG['target_os'] =~ /darwin/i
